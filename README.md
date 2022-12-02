@@ -1,2 +1,3 @@
-# python testing    
-This is the branch where i attempt to test Python with GitHub Codespaces
+# GitHub Testing
+
+This is just a place where i test stuff with GitHub, such as codespaces.
