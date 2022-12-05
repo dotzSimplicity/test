@@ -1,24 +1,23 @@
-const pi = 3.14159265359
-let clicked = false
+const pi = 3.14159265359;
+var clicked = false;
 
 console.log(pi);
-alert("Hello World!");
+console.log("no more hello world, just pi.");
 
 document.write("why yes potato man");
 
+function toggleClicked() {
+    clicked = !clicked;
+};
 
 var button = document.createElement("button");
-button.innerHTML = "Click Me";
+button.innerHTML = "Click Me, for seizures.";
 button.addEventListener("click", function() {
-    if (clicked == false) {
-    clicked = true;
-    } else if (clicked == true) { 
-    clicked == false;
-    }});
+    toggleClicked();
+});
 
 document.body.appendChild(button);
 
-while(clicked == true)
-{
+while (clicked) {
     console.log("Clicked");
 };
