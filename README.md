@@ -1,3 +1,3 @@
 # GitHub Testing
 
-This is just a place where i test stuff with GitHub, such as codespaces.
+This is just a place where i test stuff with GitHub, Such as CodeSpaces.
