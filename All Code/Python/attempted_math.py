@@ -1,3 +1,8 @@
+
+
+# Console Calculator has been uploaded to a public repo. https://github.com/dotzSimplicity/console-calculator
+
+
 import math # This is needed for checking square root
 
 print("Hello World!")
