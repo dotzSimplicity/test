@@ -12,10 +12,9 @@ button.innerHTML = "Click Me";
 button.addEventListener("click", function() {
     if (clicked == false) {
     clicked = true;
-    else if (clicked == true)
+    } else if (clicked == true) { 
     clicked == false;
-    }
-    });
+    }});
 
 document.body.appendChild(button);
 
