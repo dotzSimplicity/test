@@ -5,6 +5,10 @@ public class cloner {
         
         System.out.println("hello i am robotoman, say smth bish");
         Scanner input = new Scanner(System.in); // yoinks input
-        System.out.println(input.nextLine()); // yeets input
+
+        String robotoman = "robotoman says: ";
+        String compiled = robotoman + input.nextLine(); // compiles input with speech
+
+        System.out.println(compiled); // yeets input
 
 }}
