@@ -11,4 +11,6 @@ public class cloner {
 
         System.out.println(compiled); // yeets input
 
+        input.close();
+
 }}
