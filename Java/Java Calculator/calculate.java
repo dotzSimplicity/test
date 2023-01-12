@@ -1,33 +1,33 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.*;
 
 public class calculate { // W.I.P.
-    public static void main(String[] args) throws IOException {
-        
-        InputStreamReader input = new InputStreamReader(System.in);
-        BufferedReader reader = new BufferedReader(input);
+    public static void main(String[] args) {
 
         // intro
-        System.out.println("hello i am calculator, i can do math");
-        System.out.println("calculating time poggers");
+        System.out.println("Console Calculator by dotzSimplicity - Java Edition.");
         System.out.println("Possible Operators: +, -, *, /, %");
 
         // num1
         System.out.println("Enter your first number: ");
-        int num1 = reader.readLine();
-        System.out.println(num1);
+        Scanner input1 = new Scanner(System.in);
+        int num1 = input1.nextInt();
+        System.out.println(num1 + " Registered");
+        input1.close();
 
         // operator
         System.out.println("Enter your operator: ");
-        String operator = reader.readLine();
-        System.out.println(num1 + operator + "Registered");
+        Scanner input2 = new Scanner(System.in);
+        String operator = input2.next();
+        System.out.println(num1 + operator + " Registered");
+        input2.close();
 
         // num2
         System.out.println("Enter your second number: ");
-        int num2 = reader.readLine();
-        System.out.println(num1 + operator + num2 + "Registered");
-        
+        Scanner input3 = new Scanner(System.in);
+        int num2 = input3.nextInt();
+        System.out.println(num1 + operator + num2 + " Registered");
+        input3.close();
+
         // calculation
         if (operator == "+") {
             System.out.println(num1 + num2);
